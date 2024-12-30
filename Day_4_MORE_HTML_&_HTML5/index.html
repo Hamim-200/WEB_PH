@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 & HOME</title>
+    <style>
+        nav>ul>li {
+            display: inline;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 25px;
+        }
+
+        nav li>a {
+            text-decoration: none;
+            color: black;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="navbar.html">Nav</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="address.html">Address</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h3>Caption</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolorem deserunt, nihil fugiat
+                    incidunt praesentium obcaecati impedit laborum explicabo ipsa assumenda vero tempore animi
+                    consectetur velit voluptas vel fugit saepe!</p>
+                <p>Published On : <time datetime="2029-05-27">May 27 2025</time></p>
+
+                <figure>
+                    <img width="300px" src="assets/clock.jpg" alt="">
+                    <figcaption>Time Management</figcaption>
+                </figure>
+            </header>
+        </article>
+
+        <!-- FORM -->
+        <section>
+            <h2>Please Fill Up the form</h2>
+
+            <form>
+                <label for="Name">Your Name: <input type="text" placeholder="Your Name"></label>
+                <label for="Email">Your Email: <input type="email" placeholder="Your Email"></label>
+                <label for="Phone">Your Phone: <input type="tel" placeholder="Your phone"></label>
+
+
+                <fieldset>
+                    <legend>Fill Up Everything Part-1</legend>
+                    <label for="Food-1"><input type="radio" name="" id="">Apple</label>
+                    <label for="Food-2"><input type="radio" name="" id="">Lemon</label>
+                    <label for="Food-3"><input type="radio" name="" id="">Orange</label>
+                    <label for="Food-4"><input type="radio" name="" id="">Banana</label>
+                    <label for="Food-5"><input type="radio" name="" id="">Grape</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Fill Up Everything Part-2</legend>
+                    <label for="Food-1"><input type="checkbox" name="" id="">Apple</label>
+                    <label for="Food-2"><input type="checkbox" name="" id="">Lemon</label>
+                    <label for="Food-3"><input type="checkbox" name="" id="">Orange</label>
+                    <label for="Food-4"><input type="checkbox" name="" id="">Banana</label>
+                    <label for="Food-5"><input type="checkbox" name="" id="">Grape</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Whats on your mind?</legend>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+                <input type="reset" value="RESET">
+                <input type="submit" value="SUBMIT">
+            </form>
+        </section>
+
+    </main>
+
+
+    <!-- AUDIO-VIDEO -->
+    <h2>Audio Video</h2>
+    <audio controls src="assets/audio-1.mp3"></audio>
+    <video width="500px" controls src="assets/video-1.mp4"></video>
+
+    <!-- Table -->
+    <h2>HTML Table</h2>
+    <table>
+        <caption>Salary data Table</caption>
+        <thead>
+            <tr>
+                <th>sl.</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Elon Mask</td>
+                <td>Tesla</td>
+                <td>$1500</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lary Pages</td>
+                <td>Google</td>
+                <td>$1200</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Employee-3</td>
+            </tr>
+
+        </tfoot>
+    </table>
+
+
+    <footer>
+        <p>&copy; 29-12-2025-Hamim</p>
+    </footer>
+
+</body>
+
+</html>

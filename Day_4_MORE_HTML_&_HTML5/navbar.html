@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        nav>ul {
+            display: flex;
+        }
+
+        nav li {
+            list-style-type: none;
+            margin-right: 15px;
+            font-size: 25px;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav li:hover {
+            background-color: gray;
+        }
+
+        .dropdown{
+            display: none;
+            position: absolute;
+            background-color: lightgoldenrodyellow;
+        }
+        nav li:hover .dropdown{
+            display:block ;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="navbar.html">Nav</a></li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                    <ul class="dropdown">
+                        <li><a href="address.html">Address</a></li>
+                        <li><a href="newsletter.html">Newsletter</a></li>
+                        <li><a href="address.html">Address</a></li>
+                        <li><a href="newsletter.html">Newsletter</a></li>
+                    </ul>
+
+
+                </li>
+                <li><a href="address.html">Address</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
