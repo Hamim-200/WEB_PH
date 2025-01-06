@@ -6,6 +6,9 @@ body {
     margin: 0;
     padding: 0;
 }
+i{
+    padding-right: 10px;
+}
 
 .btn-primary {
     background-color: #FD6E0A;
@@ -19,9 +22,9 @@ body {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url(../assets/images/header_bg.png);
+    background-image: url(../assets/images/header_bg.png) ,url('../assets/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right ,top left;
     justify-content: space-between;
 }
 
