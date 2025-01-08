@@ -22,7 +22,7 @@ header {
 .header-contenet {
     text-align: right;
     max-width: 585px;
-    margin-left: auto; 
+    margin-left: auto;
     padding-right: 200px;
 }
 
@@ -44,4 +44,132 @@ header {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
+}
+
+/* MAIN */
+main {
+    margin: 100px 300px;
+}
+
+/* MY LUCK PART EDIT */
+.my-luck {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-luck-img img {
+    min-height: 400px;
+    width: 400px;
+}
+
+.my-luck-info {
+    max-width: 585px;
+}
+
+.my-luck-title {
+    font-size: 35px;
+}
+
+.my-luck-info ul>li {
+    list-style-type: none;
+    color: #444343;
+    font-size: 18px;
+}
+
+/* ICON STYLE */
+i {
+    color: #63E6BE;
+    margin-right: 5px;
+}
+
+/* My Plans */
+#my-plans-titel {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.habit-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.habit-item h4 {
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+
+.mindset-section {
+    background-image: url(./assets/images/gradient2.png), url('./assets/images/watch.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 90px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.mindset-section-title {
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.mindset-btn {
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    color: #F15B22;
+}
+
+/* Footer Style */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #151414;
+    padding: 100px;
+    color: #F8F8F8;
+}
+
+.footer-left {
+    max-width: 50%;
+}
+
+.footer-right {
+    max-width: 50%;
+}
+
+.footer-titel {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.footer-left p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: azure;
+}
+
+.fotter-logo img {
+    padding-left: 5px;
+}
+
+.footer-right input {
+    display: block;
+}
+
+#input-email {
+    padding: 18px 35px;
+    background-color: #151414;
+    color: #F8F8F8;
+    border: 2px solid #F8F8F8;
+    border-radius: 5px;
+    width: 70%;
 }
