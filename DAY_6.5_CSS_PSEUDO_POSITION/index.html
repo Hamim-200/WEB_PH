@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSEUDO ELEMENTS</title>
+    <style>
+        h3 {
+            color: teal;
+        }
+
+        h3:hover {
+            color: crimson;
+            background-color: olive;
+        }
+
+        input:focus {
+            color: blue;
+            outline: 0;
+            border: 2px solid red;
+        }
+
+        a:visited {
+            color: gray;
+        }
+
+        /* li:last-child{
+            color: blue;
+        } */
+        li:nth-child(2n) {
+            color: blue;
+        }
+
+        .box {
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+        .container{
+            border: 2px solid red;
+            background-color: khaki;
+            height: 3443px;
+
+        }
+
+        #box3 {
+            /* position:absolute;
+            position:relative;
+            top: 34px;
+            left:34px ; */
+
+            /* position: fixed;
+            right: 4px;
+            bottom: 2px; */
+
+            position: sticky;
+            top:3px;
+        }
+
+        p::first-letter{
+            font-size: 2.5em;
+        }
+        p::first-line{
+            background-color: rosybrown;
+        }
+        ::selection{
+            background-color: blue;
+        }
+        input::placeholder{
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Hello PSEUDO</h3>
+    <input type="text" name="" id="">
+    <input type="text" name="" id="">
+
+    <a href="https://www.google.com/">Google</a>
+
+    <ul>
+        <li>Alia</li>
+        <li>Alia_2</li>
+        <li>Alia_3</li>
+        <li>Alia_4</li>
+        <li>Alia_5</li>
+    </ul>
+
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+
+    <!-- PSUDO ELEMENTS -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusantium expedita harum fugit esse iusto quia nulla vero impedit iste?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusantium expedita harum fugit esse iusto quia nulla vero impedit iste?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusantium expedita harum fugit esse iusto quia nulla vero impedit iste?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusantium expedita harum fugit esse iusto quia nulla vero impedit iste?</p>
+</body>
+
+</html>
