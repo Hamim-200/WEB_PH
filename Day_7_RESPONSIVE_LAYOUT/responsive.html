@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        body{
+            border: 2px solid yellow;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .cart {
+            border: 1px solid red;
+            padding: 10px;
+        }
+
+        .cart img {
+            width: 100%;
+        }
+
+
+        /* =======MEDIA QUERY======= */
+        @media screen and (max-width:576px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width:577px) and (max-width:992px){
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cart">
+            <img src="images/image.jpg" alt="">
+            <h3>Images - 1</h3>
+            <p>Price : $100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde magni dolorum vero distinctio hic
+                architecto iure soluta asperiores nihil nulla?</p>
+        </div>
+        <div class="cart">
+            <img src="images/image.jpg" alt="">
+            <h3>Images - 2</h3>
+            <p>Price : $200</p>
+            <p>Dolorem reiciendis, quis magni, expedita debitis magnam qui ab sequi repellat necessitatibus sit,
+                veritatis quaerat consequuntur molestias soluta dolores quam!</p>
+        </div>
+        <div class="cart">
+            <img src="images/image.jpg" alt="">
+            <h3>Images - 3</h3>
+            <p>Price : $300</p>
+            <p>Accusamus eum magni, delectus harum reiciendis molestias saepe debitis vero sapiente veniam similique,
+                omnis in? Harum maiores iste facere soluta!</p>
+        </div>
+        <div class="cart">
+            <img src="images/image.jpg" alt="">
+            <h3>Images - 4</h3>
+            <p>Price : $400</p>
+            <p>Beatae dolorum earum dolor animi sunt ipsum commodi fugiat hic doloribus reiciendis tenetur iusto,
+                impedit tempore debitis vitae sint illum!</p>
+        </div>
+        <div class="cart">
+            <img src="images/image.jpg" alt="">
+            <h3>Images - 5</h3>
+            <p>Price : $500</p>
+            <p>Recusandae nostrum officia sit, ipsa aliquid aspernatur rerum beatae eligendi expedita magni facere sed
+                veritatis necessitatibus architecto, excepturi at inventore?</p>
+        </div>
+        <div class="cart">
+            <img src="images/image.jpg" alt="">
+            <h3>Images - 6</h3>
+            <p>Price : $600</p>
+            <p>Fugit amet tempora nostrum earum modi cum veritatis laudantium sint praesentium! Asperiores nemo adipisci
+                provident aspernatur a possimus soluta ea!</p>
+        </div>
+        <div class="cart">
+            <img src="images/image.jpg" alt="">
+            <h3>Images - 7</h3>
+            <p>Price : $700</p>
+            <p>Commodi aperiam aut odio veniam itaque laudantium perspiciatis quam quia facilis qui? A incidunt repellat
+                sapiente alias tempora. Quae, nostrum.</p>
+        </div>
+        <div class="cart">
+            <img src="images/image.jpg" alt="">
+            <h3>Images - 8</h3>
+            <p>Price : $800</p>
+            <p>Blanditiis, eveniet sapiente! Suscipit soluta tenetur vel aperiam minus aliquam quod! Voluptatum magni
+                numquam consequuntur necessitatibus? Tenetur, laborum mollitia! Mollitia!</p>
+        </div>
+        <div class="cart">
+            <img src="images/image.jpg" alt="">
+            <h3>Images - 9</h3>
+            <p>Price : $900</p>
+            <p>Ut, asperiores rerum sint corporis veritatis voluptatem sapiente. Recusandae minus est, illum ea
+                asperiores officiis cupiditate dolore tenetur culpa fuga?</p>
+        </div>
+        <div class="cart">
+            <img src="images/image.jpg" alt="">
+            <h3>Images - 10</h3>
+            <p>Price : $1000</p>
+            <p>Quos, provident deleniti suscipit enim ullam id velit fugiat esse est delectus earum possimus blanditiis
+                distinctio quis perspiciatis, aliquam dolore!</p>
+        </div>
+        <div class="cart">
+            <img src="images/image.jpg" alt="">
+            <h3>Images - 11</h3>
+            <p>Price : $1100</p>
+            <p>Nemo tempora maiores sequi enim officia, quas perspiciatis perferendis deserunt velit nam magnam saepe
+                alias accusamus aliquid debitis! Aperiam, iusto?</p>
+        </div>
+        <div class="cart">
+            <img src="images/image.jpg" alt="">
+            <h3>Images - 12</h3>
+            <p>Price : $1200</p>
+            <p>Assumenda eius molestiae praesentium voluptate quae, tenetur molestias officia tempora voluptatem magnam
+                laudantium autem earum quaerat repudiandae delectus quasi vel!</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
