@@ -6,17 +6,34 @@
     <title>CSS Variable</title>
 
     <style>
+        :root{
+            --primary-color: rgb(255, 0, 68);
+            --font-size:12px;
+        }
         h1{
-            color: aqua;
+            color: var(--primary-color);
         }
         h5{
-            background-color: aqua;
+            background-color: var(--primary-color);
         }
         .box{
-            border: 2px solid aqua;
+            border: 2px solid var(--primary-color);
         }
         .box p{
-            color: aqua;
+            color: var(--primary-color);
+            font-size: var(--font-size);
+        }
+        .sidebar{
+            background-color: cornflowerblue;
+        }
+        .content{
+            background-color: crimson;
+        }
+        .container{
+            display: grid;
+            gap:20px;
+            grid-template-rows:500px ;
+            grid-template-columns: 200px calc(100% - 200px - 20px);
         }
     </style>
 </head>
@@ -28,6 +45,20 @@
     <div class="box">
         <h3>Doing Something</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi natus inventore in quisquam repudiandae tempora possimus, autem velit omnis illum magni ipsum id eligendi atque ducimus quidem deleniti enim labore perspiciatis, dignissimos dolorum voluptatem nemo. Incidunt dolores minus numquam dolore voluptatibus aliquam officiis soluta quas itaque, perspiciatis maxime facilis culpa!</p>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>Hello - 1 </h3>
+            <h3>Hello - 1 </h3>
+            <h3>Hello - 1 </h3>
+            <h3>Hello - 1 </h3>
+            <h3>Hello - 1 </h3>
+            <h3>Hello - 1 </h3>
+            <h3>Hello - 1 </h3>
+            <h3>Hello - 1 </h3>
+        </div>
+        <div class="content">CONTENT</div>
     </div>
 </body>
 </html>
