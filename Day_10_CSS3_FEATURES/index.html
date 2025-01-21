@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>OVERFLOW</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 2px solid sandybrown;
+            overflow: auto;
+        }
+        /* #box-1{
+            overflow: scroll;
+            overflow: auto;
+            overflow-x: hidden;
+        } */
+         .elipsis{
+            width: 200px;
+            border: 2px solid maroon;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <p class="elipsis" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, explicabo facilis amet neque sed quam veritatis quod. Libero, odio laudantium?">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, explicabo facilis amet neque sed quam veritatis quod. Libero, odio laudantium?
+        </p>
+    </header>
+    <section>
+        <div id="box-1" class="box">
+            <h3>My Text Book 1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae mollitia enim numquam necessitatibus esse, adipisci accusantium porro itaque quis modi explicabo omnis magni quia quos saepe ad accusamus quae id culpa vero. Modi, maiores. A magni, praesentium voluptatem rerum itaque alias accusamus cum earum, quidem ullam animi quam tempora dolorem esse quasi veniam quo. In alias ab ipsa! Quas id facilis, vitae maiores fugit magnam officia tenetur voluptates quidem deserunt perferendis. Quis enim laudantium atque sapiente nisi doloremque distinctio fugit iusto dolor iste. Magni nostrum dignissimos sunt voluptatem. Perspiciatis officiis consectetur tempora itaque voluptatibus commodi voluptates tenetur modi sint id esse quia, ipsum porro at repellendus, ab molestias praesentium quas soluta quod reiciendis. Labore, vel eveniet commodi omnis a, blanditiis facere provident doloremque atque ullam asperiores deleniti cupiditate? Quisquam cum esse, nobis doloribus natus doloremque repudiandae possimus ipsam perferendis sed provident error dolor omnis dolore nulla ullam repellat culpa velit obcaecati ut! Tempore deleniti laborum earum ad est iure et quae ducimus cupiditate, dignissimos tempora adipisci ea facere saepe incidunt. Adipisci officiis, vero mollitia deleniti suscipit neque rerum libero, aliquam blanditiis consequuntur quasi dolorem quidem sapiente voluptatibus earum temporibus quaerat! Reiciendis quod cum quibusdam voluptatum soluta, repellat unde nostrum modi.</p>
+        </div>
+        <div class="box">
+            <h3>My Text Book 2</h3>
+            <p>Omnis earum voluptates nemo. Et suscipit reiciendis assumenda nam, repellat qui mollitia rem asperiores, ullam veniam vitae quaerat ad voluptates reprehenderit fuga ea amet at, distinctio necessitatibus excepturi. Facilis saepe ullam autem ratione rerum eos facere! Velit quaerat corporis tempore similique laboriosam eos quae consequuntur nihil libero unde! Cupiditate provident impedit dolorum totam, quaerat sed, dolorem aliquid eaque itaque, beatae odit quos placeat sit minus amet unde accusantium? Perferendis sunt rem maxime at ipsa numquam cum dolore, doloribus aut. Totam doloribus enim amet fugiat vero praesentium earum soluta ipsam sed modi et, aliquid repudiandae. Reiciendis amet, ad provident accusantium autem laudantium minima illum! Provident, repellendus nesciunt illum iusto maxime suscipit libero nisi. Ipsa enim saepe vel unde laborum ipsam aliquam quaerat omnis vero! Optio itaque excepturi maxime amet libero mollitia numquam odit aliquam ratione ullam voluptate temporibus, quam ducimus? Voluptates, reprehenderit corrupti quasi rem repellat adipisci placeat illo quia fugit sed distinctio minima libero necessitatibus ullam exercitationem id. Quo est, excepturi repellat nam voluptatibus necessitatibus blanditiis totam minima quibusdam aspernatur itaque aliquid quos nisi porro officiis quis vero, neque animi repudiandae facere corrupti saepe corporis, voluptatum sed. Dolores fugiat placeat earum, culpa doloribus iusto beatae, dignissimos tempora maxime, pariatur ad.</p>
+        </div>
+        <div class="box">
+            <h3>My Text Book 3</h3>
+            <p>Omnis earum voluptates nemo. Et suscipit reiciendis assumenda nam, repellat qui mollitia rem  </p>
+        </div>
+    </section>
+</body>
+</html>
