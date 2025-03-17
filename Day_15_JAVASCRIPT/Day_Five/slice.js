@@ -15,3 +15,5 @@ console.log(friends);
 
 const realfriend = [ 'Rahim', 'Karim', 'fahim', 'Amin', 'Rafiq' ];
 console.log(realfriend.join());
+
+console.log(address.includes('k')); 
