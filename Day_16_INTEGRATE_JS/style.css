@@ -1,3 +1,14 @@
 h1{
     color: darkkhaki;
 }
+
+#fruits_title{
+    color: chocolate;
+}
+
+.imp-places{
+    color:lime;
+}
+.fruits-container li{
+    color: darkred;
+}
