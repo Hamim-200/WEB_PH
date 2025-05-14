@@ -12,3 +12,11 @@ h1{
 .fruits-container li{
     color: darkred;
 }
+
+.text-center{
+    text-align: center;
+}
+
+.lg-font{
+    font-size:x-large;
+}
