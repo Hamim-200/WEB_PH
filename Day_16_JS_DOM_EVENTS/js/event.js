@@ -36,7 +36,7 @@ pinkButton.addEventListener('click', function makepink() {
 })
 
 // Op -- 5 FINAL
-document.getElementById('make-gray').addEventListener('click',function(){
-     document.body.style.backgroundColor = 'DarkGray';
+document.getElementById('make-gray').addEventListener('click', function () {
+    document.body.style.backgroundColor = 'DarkGray';
 })
 

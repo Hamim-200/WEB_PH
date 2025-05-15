@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Box</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+        }
+
+        header {
+            text-align: center;
+            color: black;
+        }
+
+        .comment-box {
+            text-align: center;
+        }
+
+        .comment-box>button {
+            padding: 15px 45px;
+            border: 1px solid rgb(244, 232, 209);
+            background-color: darkgrey;
+            cursor: pointer;
+            color: royalblue;
+            font-size: larger;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Please Add your comment</h1>
+    </header>
+    <main>
+        <div id="comment-container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis itaque similique adipisci quod omnis
+                accusantium possimus repudiandae et voluptate facilis, nihil, nam modi quia? Repudiandae id mollitia
+                veritatis expedita facilis ipsum sunt exercitationem odio alias eaque. Consectetur exercitationem culpa,
+                quos ut natus optio doloremque, libero quas, maxime ipsum illum eligendi.</p>
+            <p>Eligendi tempora similique dolorum adipisci repudiandae inventore itaque ullam, minus fugit iusto
+                assumenda amet earum in nulla suscipit veritatis libero! Accusamus in, eligendi nemo quis dolorum
+                commodi labore recusandae maxime cumque. Voluptatum enim quis maiores voluptatem vel similique aut
+                deleniti magni repellendus sed commodi minima iste autem, adipisci velit dolorem.</p>
+            <p>Officia, obcaecati nostrum iure expedita, similique mollitia dolor pariatur doloribus quam libero et at
+                nemo laboriosam. Ea, rem unde harum, quas sapiente, velit eveniet molestias accusamus temporibus
+                laudantium non aliquid quia nulla vel. Autem natus sunt atque ex magni sint animi modi assumenda illo
+                qui, aperiam placeat aliquam laboriosam perspiciatis?</p>
+        </div>
+
+        <div class="comment-box">
+            <textarea name="" id="new-comment" cols="50" rows="15"></textarea>
+            <br>
+            <br>
+            <button id="btn-post">Post</button>
+        </div>
+    </main>
+
+
+
+
+    <script>
+        //Step-1: add event listener to the post button
+        document.getElementById('btn-post').addEventListener('click', function () {
+            //Step-2: get the comment
+            const commentBox = document.getElementById('new-comment');
+            const newComment = commentBox.value;
+
+            //Step-3: Set the comment inside the comment container
+            const commentContainer = document.getElementById('comment-container') ;
+            const p = document.createElement('p');
+            p.innerText = newComment;
+            commentContainer.appendChild(p);
+
+            // Step -4 : clear the text area
+            commentBox.value = '';
+        })
+    </script>
+</body>
+
+</html>
