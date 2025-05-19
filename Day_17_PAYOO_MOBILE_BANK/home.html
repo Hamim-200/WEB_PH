@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <main class="flex justify-center">
+        <div class="mockup-phone  bg-base-200">
+            <div class="mockup-phone-camera"></div>
+            <div class="mockup-phone-display text-white grid place-content-center">
+                <!-- Available balance  -->
+                <div class="stats shadow bg-slate-800 justify-center">
+                    <div class="stat">
+                        <div class="stat-value">89400</div>
+                        <div class="stat-desc text-base-200">Available Balance</div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+
+                <!-- user action buttons -->
+                <div>
+                    <button class="btn btn-lg btn-success">Add Money</button>
+                    <button class="btn btn-lg btn-error">Cashout</button>
+                </div>
+
+                <!-- Add money form -->
+                <div class="divider"></div>
+                <fieldset class="fieldset">
+                    <label class="label text-slate-900 ">Amount</label>
+                    <input id="phone-number" type="text" class="input bg-slate-600" placeholder="Amount you want to add" />
+                    <label class="label text-slate-900">4 Digits Pin</label>
+                    <input id="pin-number" type="password" class="input bg-slate-600" placeholder="Enter Your Pin" />
+
+                    <button id="button-login" class="btn btn-neutral mt-4">Login</button>
+                </fieldset>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
