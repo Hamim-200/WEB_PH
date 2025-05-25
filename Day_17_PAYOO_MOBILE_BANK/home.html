@@ -18,7 +18,7 @@
                 <!-- Available balance  -->
                 <div class="stats shadow bg-slate-800 justify-center">
                     <div class="stat">
-                        <div id="account-balance" class="stat-value">89400</div>
+                        <div id="account-balance" class="stat-value">1500</div>
                         <div class="stat-desc text-base-200">Available Balance</div>
                     </div>
                 </div>
@@ -26,8 +26,9 @@
 
                 <!-- user action buttons -->
                 <div>
-                    <button id="btn-show-addmoney" class="btn btn-lg btn-success">Add Money</button>
-                    <button id="btn-show-cashout" class="btn btn-lg btn-error">Cashout</button>
+                    <button id="btn-show-addmoney" class="btn btn-lg btn-success">Add</button>
+                    <button id="btn-show-cashout" class="btn btn-lg btn-error">Out</button>
+                    <button id="btn-show-cashout" class="btn btn-lg btn-error">Transactions</button>
                 </div>
 
                 <!-- Add money form start -->
@@ -35,7 +36,7 @@
                 <fieldset id="add-money-form" class="fieldset">
                     <label class="label text-slate-900 ">Amount</label>
                     <input id="input-add-money" type="text" class="input bg-slate-600"
-                        placeholder="Amount you want to add" />
+                        placeholder="Amount you want to add" autocomplete="off" />
                     <label class="label text-slate-900">4 Digits Pin</label>
                     <input id="input-pin-number" type="password" class="input bg-slate-600"
                         placeholder="Enter Your Pin" />
@@ -45,10 +46,10 @@
                 <!-- Add money form End -->
 
                 <!-- cashout start -->
-                <fieldset id="cashout-form" class="fieldset hidden">
+                <fieldset id="cashout-form" class="fieldset">
                     <label class="label text-slate-900 ">Amount</label>
                     <input id="input-cashout-money" type="text" class="input bg-slate-600"
-                        placeholder="Amount you want to cashout" />
+                        placeholder="Amount you want to cashout" autocomplete="off" />
                     <label class="label text-slate-900">4 Digits Pin</label>
                     <input id="cashout-pin-number" type="password" class="input bg-slate-600"
                         placeholder="Enter Your Pin" />
@@ -56,6 +57,12 @@
                     <button id="button-cashout" class="btn btn-neutral mt-4">Cashout</button>
                 </fieldset>
                 <!-- cashout end -->
+
+                <!-- Transactions Start  -->
+                 <div id="transtion-section">
+                    <h2 class="text-2xl text-center text-orange-300">Transactions History</h2>
+                 </div>
+                <!-- Transactions End  -->
             </div>
         </div>
         </div>
@@ -68,6 +75,8 @@
 
     <script src="new_js/utility.js"></script>
     <script src="new_js/addMoney.js"></script>
+    <script src="new_js/cashOut.js"></script>
+    <script src="new_js/features.js"></script>
 </body>
 
 </html>
