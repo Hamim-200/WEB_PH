@@ -28,7 +28,7 @@
                 <div>
                     <button id="btn-show-addmoney" class="btn btn-lg btn-success">Add</button>
                     <button id="btn-show-cashout" class="btn btn-lg btn-error">Out</button>
-                    <button id="btn-show-cashout" class="btn btn-lg btn-error">Transactions</button>
+                    <button id="btn-show-transation" class="btn btn-lg btn-warning">Transactions</button>
                 </div>
 
                 <!-- Add money form start -->
@@ -46,7 +46,7 @@
                 <!-- Add money form End -->
 
                 <!-- cashout start -->
-                <fieldset id="cashout-form" class="fieldset">
+                <fieldset id="cashout-form" class="fieldset hidden">
                     <label class="label text-slate-900 ">Amount</label>
                     <input id="input-cashout-money" type="text" class="input bg-slate-600"
                         placeholder="Amount you want to cashout" autocomplete="off" />
@@ -59,9 +59,12 @@
                 <!-- cashout end -->
 
                 <!-- Transactions Start  -->
-                 <div id="transtion-section">
+                <div id="transtion-section" class="hidden">
                     <h2 class="text-2xl text-center text-orange-300">Transactions History</h2>
-                 </div>
+                    <div id="transactions-container" class="text-green-500">
+
+                    </div>
+                </div>
                 <!-- Transactions End  -->
             </div>
         </div>
@@ -71,8 +74,7 @@
     <!-- <script src="js/cashout.js"></script> -->
     <!-- <script src="js/features.js"></script> -->
 
-    <!-- JS-NEW -->
-
+    <!-- JS-NEW USING FUNCTION-->
     <script src="new_js/utility.js"></script>
     <script src="new_js/addMoney.js"></script>
     <script src="new_js/cashOut.js"></script>
