@@ -12,3 +12,4 @@ function fullName (first,last = ''){
     const full = first + ' ' + last;
     return full;
 }
+ 
