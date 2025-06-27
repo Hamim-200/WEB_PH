@@ -13,4 +13,8 @@ console.log(result);
 
 const email = 'Hi john \n how are you?'
 
-console.log(email);
+const email_two = `hello everyone,
+how are you ?
+hope you are doing well`
+
+console.log(email_two);
