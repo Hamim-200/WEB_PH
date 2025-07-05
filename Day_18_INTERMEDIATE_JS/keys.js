@@ -7,7 +7,7 @@ const actor = {
 };
 
 console.log(actor);
-
+  
 const keys  = Object.keys(actor);
 console.log(keys);
 
