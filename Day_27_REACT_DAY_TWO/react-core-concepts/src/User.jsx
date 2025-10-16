@@ -10,4 +10,3 @@ export default function User({user}){
     )
 }
 
-// 7 done
