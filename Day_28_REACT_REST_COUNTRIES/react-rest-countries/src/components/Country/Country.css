@@ -1,0 +1,20 @@
+.country{
+    border: 2px solid orangered;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.btn {
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  color: #111827;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f3f4f6;
+}
