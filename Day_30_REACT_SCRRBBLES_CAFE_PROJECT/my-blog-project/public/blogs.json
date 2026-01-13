@@ -51,5 +51,105 @@
             "development",
             "resources"
         ]
-    }
+    },
+    {
+    "id": 5,
+    "cover": "https://i.ibb.co/zQ8cLwN/5.jpg",
+    "title": "Understanding Closures in JavaScript with Simple Examples",
+    "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+    "author": "Ayaan Malik",
+    "posted_date": "May 20, 2023",
+    "reading_time": 6,
+    "hashtags": ["javascript", "closures", "basics"]
+  },
+  {
+    "id": 6,
+    "cover": "https://i.ibb.co/0Jf8dGp/6.jpg",
+    "title": "A Beginner’s Guide to Git and GitHub",
+    "author_img": "https://i.ibb.co/7rFSJx5/girl1.jpg",
+    "author": "Nusrat Jahan",
+    "posted_date": "April 18, 2023",
+    "reading_time": 7,
+    "hashtags": ["git", "github", "versioncontrol"]
+  },
+  {
+    "id": 7,
+    "cover": "https://i.ibb.co/5v6bP0k/7.jpg",
+    "title": "Tailwind CSS: Build Modern UI Faster",
+    "author_img": "https://i.ibb.co/vwGwnhT/boy2.jpg",
+    "author": "Rahim Uddin",
+    "posted_date": "March 30, 2023",
+    "reading_time": 8,
+    "hashtags": ["tailwind", "css", "frontend"]
+  },
+  {
+    "id": 8,
+    "cover": "https://i.ibb.co/3kV9J4k/8.jpg",
+    "title": "React State Management: useState vs useReducer",
+    "author_img": "https://i.ibb.co/Sn7zB4q/girl2.jpg",
+    "author": "Tasnim Akter",
+    "posted_date": "March 12, 2023",
+    "reading_time": 9,
+    "hashtags": ["react", "hooks", "state"]
+  },
+  {
+    "id": 9,
+    "cover": "https://i.ibb.co/9h2r6mC/9.jpg",
+    "title": "Top VS Code Extensions for Web Developers",
+    "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+    "author": "Imran Hossain",
+    "posted_date": "February 22, 2023",
+    "reading_time": 5,
+    "hashtags": ["vscode", "tools", "productivity"]
+  },
+  {
+    "id": 10,
+    "cover": "https://i.ibb.co/JxQk1TQ/10.jpg",
+    "title": "Understanding REST API: Concepts You Should Know",
+    "author_img": "https://i.ibb.co/7rFSJx5/girl1.jpg",
+    "author": "Sadia Islam",
+    "posted_date": "February 5, 2023",
+    "reading_time": 8,
+    "hashtags": ["api", "backend", "rest"]
+  },
+  {
+    "id": 11,
+    "cover": "https://i.ibb.co/ZVwz2qR/11.jpg",
+    "title": "Async vs Await in JavaScript Explained Clearly",
+    "author_img": "https://i.ibb.co/vwGwnhT/boy2.jpg",
+    "author": "Arif Hasan",
+    "posted_date": "January 28, 2023",
+    "reading_time": 6,
+    "hashtags": ["javascript", "async", "promises"]
+  },
+  {
+    "id": 12,
+    "cover": "https://i.ibb.co/9s0VbZp/12.jpg",
+    "title": "Responsive Web Design Principles You Must Follow",
+    "author_img": "https://i.ibb.co/Sn7zB4q/girl2.jpg",
+    "author": "Mehjabin Noor",
+    "posted_date": "January 10, 2023",
+    "reading_time": 7,
+    "hashtags": ["responsive", "design", "css"]
+  },
+  {
+    "id": 13,
+    "cover": "https://i.ibb.co/5KwqR6F/13.jpg",
+    "title": "How the JavaScript Event Loop Really Works",
+    "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+    "author": "Tanvir Ahmed",
+    "posted_date": "December 18, 2022",
+    "reading_time": 10,
+    "hashtags": ["javascript", "eventloop", "advanced"]
+  },
+  {
+    "id": 14,
+    "cover": "https://i.ibb.co/LhXK9W2/14.jpg",
+    "title": "Getting Started with React Router v6",
+    "author_img": "https://i.ibb.co/7rFSJx5/girl1.jpg",
+    "author": "Farzana Rahman",
+    "posted_date": "December 2, 2022",
+    "reading_time": 6,
+    "hashtags": ["react", "router", "spa"]
+  }
 ]
