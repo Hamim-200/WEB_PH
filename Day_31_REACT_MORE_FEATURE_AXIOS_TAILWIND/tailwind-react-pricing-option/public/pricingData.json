@@ -1,0 +1,290 @@
+[
+    {
+        "id": "1",
+        "plan_id": "01_off_peak",
+        "name": "The Early Bird",
+        "price": "$19.99/mo",
+        "description": "Budget-friendly access for those who train while the world sleeps. Valid Mon-Fri, 4 AM - 10 AM.",
+        "features": [
+            "Standard equipment access",
+            "Locker use",
+            "Off-peak hours only"
+        ]
+    },
+    {
+        "id": "2",
+        "plan_id": "02_student_warrior",
+        "name": "The Scholar",
+        "price": "$24.99/mo",
+        "description": "Discounted rate for active students. Stay sharp and stay fit without breaking the bank.",
+        "features": [
+            "Full facility access",
+            "No enrollment fee",
+            "Valid Student ID required"
+        ]
+    },
+    {
+        "id": "3",
+        "plan_id": "03_basic_essentials",
+        "name": "The Foundation",
+        "price": "$34.99/mo",
+        "description": "Our core membership for the no-nonsense lifter who just wants to hit the iron.",
+        "features": [
+            "Unlimited floor access",
+            "Free WiFi",
+            "Initial fitness assessment"
+        ]
+    },
+    {
+        "id": "4",
+        "plan_id": "04_group_plus",
+        "name": "The Social Pulse",
+        "price": "$54.99/mo",
+        "description": "For those who thrive on community energy and high-intensity instructor-led classes.",
+        "features": [
+            "Everything in Foundation",
+            "Unlimited Yoga, HIIT & Spin classes",
+            "Sauna access"
+        ]
+    },
+    {
+        "id": "5",
+        "plan_id": "05_weekend_warrior",
+        "name": "The Weekend Warrior",
+        "price": "$14.99/mo",
+        "description": "Perfect for those with a busy work week. Access exclusive to Saturdays and Sundays.",
+        "features": [
+            "Unlimited weekend access",
+            "Saturday morning yoga",
+            "Guest pass (1 per month)"
+        ]
+    },
+    {
+        "id": "6",
+        "plan_id": "06_iron_beast",
+        "name": "The Iron Beast",
+        "price": "$44.99/mo",
+        "description": "Serious training for serious lifters. Focus on heavy compound movements and performance.",
+        "features": [
+            "Chalk-friendly zones",
+            "Platform & Rack priority",
+            "Weightlifting belt rentals"
+        ]
+    },
+    {
+        "id": "7",
+        "plan_id": "07_night_owl",
+        "name": "The Night Owl",
+        "price": "$19.99/mo",
+        "description": "For the late-night grinders. Access valid from 10 PM to 4 AM daily.",
+        "features": [
+            "Secure 24/7 keycard access",
+            "Self-guided workout tablet",
+            "Quiet hours atmosphere"
+        ]
+    },
+    {
+        "id": "8",
+        "plan_id": "08_zen_master",
+        "name": "The Zen Master",
+        "price": "$59.99/mo",
+        "description": "A holistic approach focusing on flexibility, mindfulness, and recovery.",
+        "features": [
+            "Unlimited Pilates & Yoga",
+            "Meditation room access",
+            "Monthly wellness workshop"
+        ]
+    },
+    {
+        "id": "9",
+        "plan_id": "09_executive_suite",
+        "name": "The Executive",
+        "price": "$99.99/mo",
+        "description": "Premium convenience for the busy professional who values time and comfort.",
+        "features": [
+            "Private executive lockers",
+            "Laundry service for gym gear",
+            "Coworking space access"
+        ]
+    },
+    {
+        "id": "10",
+        "plan_id": "10_power_couple",
+        "name": "The Power Couple",
+        "price": "$64.99/mo",
+        "description": "One membership, two people. Keep each other accountable and save on costs.",
+        "features": [
+            "Access for two adults",
+            "Shared personal trainer session",
+            "2 Guest passes monthly"
+        ]
+    },
+    {
+        "id": "11",
+        "plan_id": "11_silver_strength",
+        "name": "The Silver Strength",
+        "price": "$21.99/mo",
+        "description": "Tailored for members aged 60+. Focus on mobility, bone density, and longevity.",
+        "features": [
+            "Low-impact circuit training",
+            "Balance and gait classes",
+            "Social coffee hour access"
+        ]
+    },
+    {
+        "id": "12",
+        "plan_id": "12_recovery_pro",
+        "name": "The Recovery Pro",
+        "price": "$49.99/mo",
+        "description": "Focus on what happens after the workout. Ideal for athletes in heavy training blocks.",
+        "features": [
+            "Cryotherapy chamber access",
+            "Compression sleeve sessions",
+            "Hydromassage bed usage"
+        ]
+    },
+    {
+        "id": "13",
+        "plan_id": "13_digital_nomad",
+        "name": "The Nomad",
+        "price": "$29.99/mo",
+        "description": "Flexibility for those who travel. Access to all branch locations nationwide.",
+        "features": [
+            "Multi-club access",
+            "On-demand digital workouts",
+            "No long-term contract"
+        ]
+    },
+    {
+        "id": "14",
+        "plan_id": "14_athlete_prime",
+        "name": "The Athlete Prime",
+        "price": "$124.99/mo",
+        "description": "Elite performance coaching and specialized equipment for competitive sports.",
+        "features": [
+            "Turf and sled access",
+            "Bi-weekly body comp analysis",
+            "Personalized nutrition plan"
+        ]
+    },
+    {
+        "id": "15",
+        "plan_id": "15_corporate_fit",
+        "name": "The Corporate Fit",
+        "price": "$31.99/mo",
+        "description": "Special group rate for employees of partnered local businesses.",
+        "features": [
+            "Team building events",
+            "Direct payroll deduction",
+            "Lunchtime HIIT sessions"
+        ]
+    },
+    {
+        "id": "16",
+        "plan_id": "16_family_squad",
+        "name": "The Family Squad",
+        "price": "$89.99/mo",
+        "description": "Health for the whole household. Includes kids' activities and adult fitness.",
+        "features": [
+            "Up to 4 family members",
+            "Childcare services (2h daily)",
+            "Youth fitness classes"
+        ]
+    },
+    {
+        "id": "17",
+        "plan_id": "17_combat_ready",
+        "name": "The Combatant",
+        "price": "$69.99/mo",
+        "description": "Focus on martial arts, boxing, and functional combat conditioning.",
+        "features": [
+            "Boxing ring/Heavy bag access",
+            "BJJ and Muay Thai classes",
+            "Sparring equipment use"
+        ]
+    },
+    {
+        "id": "18",
+        "plan_id": "18_starter_spark",
+        "name": "The Spark",
+        "price": "$9.99/mo",
+        "description": "A 3-month introductory rate for fitness beginners to get their feet wet.",
+        "features": [
+            "Equipment orientation",
+            "Weekly check-in call",
+            "Access to 'Beginner Alley'"
+        ]
+    },
+    {
+        "id": "19",
+        "plan_id": "19_aquatic_flow",
+        "name": "The Aqua Flow",
+        "price": "$39.99/mo",
+        "description": "Low-impact, high-resistance training in our temperature-controlled pools.",
+        "features": [
+            "Olympic pool access",
+            "Aqua aerobics classes",
+            "Towel service included"
+        ]
+    },
+    {
+        "id": "20",
+        "plan_id": "20_outdoor_hybrid",
+        "name": "The Trailblazer",
+        "price": "$34.99/mo",
+        "description": "Combination of indoor gym access and outdoor group bootcamp sessions.",
+        "features": [
+            "Weekend park bootcamps",
+            "Outdoor rig access",
+            "Hiking club membership"
+        ]
+    },
+    {
+        "id": "21",
+        "plan_id": "21_transformation_hub",
+        "name": "The Transformer",
+        "price": "$149.99/mo",
+        "description": "A high-touch, results-driven plan for those with specific weight goals.",
+        "features": [
+            "Weekly 1-on-1 coaching",
+            "Strict meal tracking app",
+            "Guaranteed results program"
+        ]
+    },
+    {
+        "id": "22",
+        "plan_id": "22_express_30",
+        "name": "The Fast Track",
+        "price": "$22.99/mo",
+        "description": "Designed for the 30-minute lunch break workout. In and out, no fluff.",
+        "features": [
+            "Circuit training priority",
+            "Pre-ordered protein shakes",
+            "Express shower lane"
+        ]
+    },
+    {
+        "id": "23",
+        "plan_id": "23_biohacker_tier",
+        "name": "The Biohacker",
+        "price": "$79.99/mo",
+        "description": "Optimizing biology through tech. Access to the latest in fitness science.",
+        "features": [
+            "Red light therapy",
+            "Sauna & Cold plunge",
+            "Monthly blood glucose review"
+        ]
+    },
+    {
+        "id": "24",
+        "plan_id": "24_legacy_lifetime",
+        "name": "The Legacy",
+        "price": "$1200/yr",
+        "description": "A prestigious annual commitment for those who view fitness as a lifelong journey.",
+        "features": [
+            "Locked-in rate for life",
+            "Annual gym apparel bundle",
+            "VIP event invitations"
+        ]
+    }
+]
