@@ -1,0 +1,37 @@
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid gray;
+    padding: 5px 15px;
+}
+
+
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 0 5px;
+}
+
+nav li:hover{
+    background-color: gray;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Nasted Menu */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: beige;
+    padding-left: 0;
+}
+nav li:hover .dropdown{
+    display: block;
+}

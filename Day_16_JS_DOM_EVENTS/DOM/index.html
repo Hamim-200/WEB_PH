@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Of DOM</title>
+    <style>
+        li {
+            color: blue;
+        }
+        h1 {
+            color: lightcoral;
+        }
+        .text-center{
+           text-align: center; 
+        }
+        .large-text{
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Dom</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, magni? Optio beatae laudantium cumque pariatur, nihil odit modi unde nobis consequatur, enim quam provident necessitatibus possimus quis omnis, deserunt eum.</p>
+    </header>
+
+    <main id="main-container">
+
+        <section>
+            <h1>Learning DOM </h1>
+            <ul>
+                <li>Jalali set </li>
+                <li>Shafayet</li>
+                <li>Bonobash</li>
+            </ul>
+        </section>
+    
+        <section class="fruits-container">
+            <h1 id="fruites-title">Fruits I like</h1>
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Carrot</li>
+            </ul>
+        </section>
+
+        <section id="places-container" class="large-text">
+            <h1>Place I like to visit</h1>
+            <ul id="places-list">
+                <li class="important-places">Sunodarban</li>
+                <li class="important-places">Sylhet</li>
+                <li>Bandarban</li>
+            </ul>
+        </section>
+
+    </main>
+    <script src="js/append.js"></script>
+    <script src="js/dom.js"></script>
+</body>
+</html>

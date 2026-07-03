@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.item {
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px rgb(235, 235, 235);
+    border-radius: 10px;
+}
+
+.item-name {
+    font-size: 1.5em;
+}
+
+.price {
+    font-size: 1.4em;
+}
+
+.item>.item-name,
+.price,
+.rating,
+.details {
+    margin-left: 10px;
+}
+
+.details {
+    font-size: medium;
+    font-weight: 700;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .popular-items {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+}

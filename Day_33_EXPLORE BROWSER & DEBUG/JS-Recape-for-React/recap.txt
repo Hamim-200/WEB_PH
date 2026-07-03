@@ -1,0 +1,32 @@
+1-> Fundamental
+        -Var,let
+        -Condition
+        -Array
+        -Loop
+        -Function
+        -Object
+2-> ES6
+        -Arrow Function
+        -Tamplate String
+        -Spread operation
+3-> Array method
+        -Map
+        -forEach
+        -Filter
+        -Find
+4-> Destructuring
+        -Array Destructuring
+        -Object Destructuring
+    
+5-> Shorthand
+        -Truthy / Falsy 
+        -Ternary
+        -Number to string Convert
+        -String To Number
+6-> Shorthand
+        -Local & Session Storage 
+7-> Notation
+        -Dot Notation 
+        -Bracket Notation 
+        
+    

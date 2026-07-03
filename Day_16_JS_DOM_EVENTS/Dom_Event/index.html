@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Event</title>
+</head>
+<body>
+    <h1>JS EVENT DOM</h1>
+
+    <!-- Learning-1===== CHANGING BACKGROUND COLOR ====== -->
+
+    <!-- Using onclick -->
+    <button onclick="console.log(7)">Click Me</button>
+
+    <!-- System-1 Directly set on the html element (Not Recomanded) -->
+    <button onclick="document.body.style.backgroundColor='yellow'">Make Yellow</button>  
+
+    <!-- System-2 Using Function on Script File   -->
+    <button onclick="makeRed()">Make Red</button>
+
+    <!-- System-3 Using ID -->
+    <button id="make-blue">Make Blue</button>
+
+    <!-- System-3(2nd system) Using ID -->
+    <button id="make-green">Make Green</button>
+
+    <!-- System-4 Using addEventListener-->
+    <button id="make-golden">Make Golden</button>
+
+    <!-- System-5 Simple Version of 4 -->
+    <button id="make-pink">Make Pink</button>
+
+
+    <!-- Learning-2 ===== CHANGING TEXT ====== -->
+
+    <!-- Type 1- Handle event by add onclick Function -->
+    <h3 id="handle-status">Default Text</h3>
+
+    <button onclick="handleOnClick()">Changing Text(onclick)</button>
+
+    <!-- Type 2- Handle event By addeventListner -->
+    <button id="event-listner">Changing Text (addEventlistener)</button>
+
+    <!-- Learning-3 ====== Update Whatever I type ======= -->
+    <hr>
+    <h3>🍑Update Whatever I Type</h3>
+    <p id="input-text-display">Your Text Here</p>
+    <input id="input-field" type="text">
+    <button id="btn-update">Update</button>
+
+    <script src="js/event.js"></script>
+    <script>
+
+ 
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Area</title>
+    <style>
+        .header{
+            grid-area: header;
+        }
+        .nav{
+            grid-area: nav;
+        }
+        .main{
+            grid-area: main;
+        }
+        .aside{
+            grid-area:aside ;
+        }
+        .ad{
+            grid-area: ad;
+        }
+        .footer{
+            grid-area: footer;
+        }
+        .header, .ad, .aside, .footer ,.main,.nav{
+            background-color: bisque;
+        }
+        .grid-container{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 1fr 4fr 1fr;
+            grid-template-areas:
+            "header header header header"
+            "nav  main  main  aside"
+            "nav  main  main  ad"
+            "footer footer footer footer"
+            ;
+        }
+        @media screen and (max-width:576px) {
+            .grid-container{
+            grid-template-columns: 1fr;
+            grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "aside"
+            "ad"
+            "footer"
+            ;
+        }
+
+        }
+
+    
+    </style>
+</head>
+<body class="grid-container">
+    <header class="header">
+        <h3>Header</h3>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="">Nav-1</a></li>
+            <li><a href="">Nav-2</a></li>
+            <li><a href="">Nav-3</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <article>
+            <h3>Article-1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perferendis, quas aperiam debitis voluptates alias incidunt repudiandae hic ducimus totam, est numquam, pariatur sunt dolorum quaerat asperiores assumenda nemo expedita maiores unde et accusamus iusto! Rerum est ad distinctio. Hic illo sit eum. Ipsam ut nam ex ea reprehenderit dolore?</p>
+        </article>
+        <article>
+            <h3>Article-2</h3>
+            <p>Commodi inventore ratione aliquid, minus, at rerum harum cum qui adipisci sed expedita molestias laboriosam eos, aliquam labore repellendus perspiciatis libero iusto quaerat optio. Maxime placeat eveniet illum doloribus voluptatem recusandae earum enim quasi? Ipsam iste, velit laboriosam neque consequuntur id dicta harum optio aliquam dolorum libero, possimus autem! Adipisci!</p>
+        </article>
+    </main>
+    <aside class="aside">
+        <h3>Sidebar</h3>
+        <ul>
+            <li><a href="">side-1</a></li>
+            <li><a href="">side-2</a></li>
+            <li><a href="">side-3</a></li>
+        </ul>
+
+    </aside>
+
+    <div class="ad">
+        <h3>Add</h3>
+    </div>
+
+    <footer class="footer">
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
